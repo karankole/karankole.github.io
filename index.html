@@ -1,56 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Karan Kole | Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      padding: 30px;
-    }
-    .box {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-    h1, h2 {
-      color: #222;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Karan Kole | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.header {
+  text-align: center;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+.header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+h2 {
+  color: #333;
+}
+ul {
+  padding-left: 20px;
+}
+a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer {
+  text-align: center;
+  color: #777;
+  margin-top: 40px;
+}
+</style>
 </head>
+
 <body>
 
-<div class="box">
+<div class="container">
+
+<div class="header">
   <h1>Karan Kole</h1>
-  <p><b>Computer Engineering Student | Aspiring Software Developer</b></p>
+  <p>Computer Engineering Student | Aspiring Software Developer</p>
 </div>
 
-<div class="box">
-  <h2>About Me</h2>
-  <p>I am a Computer Engineering student passionate about software development and data analysis.</p>
+<div class="card">
+<h2>👋 About Me</h2>
+<p>I am a Computer Engineering student passionate about building real-world software projects and continuously improving my skills in development and problem-solving.</p>
 </div>
 
-<div class="box">
-  <h2>Skills</h2>
-  <ul>
-    <li>Python, Java, C++</li>
-    <li>HTML, CSS, JavaScript</li>
-    <li>Git, GitHub</li>
-  </ul>
+<div class="card">
+<h2>🛠️ Skills</h2>
+<ul>
+  <li>Python, Java, C++</li>
+  <li>HTML, CSS, JavaScript</li>
+  <li>Git, GitHub</li>
+  <li>Data Analysis & Problem Solving</li>
+</ul>
 </div>
 
-<div class="box">
-  <h2>Projects</h2>
-  <p><b>Sudoku Solver</b> – Python, DFS, Tkinter</p>
-  <p><b>Retail Revenue Analysis</b> – Python, Pandas</p>
+<div class="card">
+<h2>📂 Projects</h2>
+<p><b>Sudoku Solver</b><br>Python-based solver using DFS & Backtracking with GUI</p>
+<p><b>Retail Revenue Analysis</b><br>Seasonal sales analysis using Python & Pandas</p>
 </div>
 
-<div class="box">
-  <h2>Contact</h2>
-  <p>Email: yourname@email.com</p>
-  <p>GitHub: github.com/karankole</p>
-  <p>LinkedIn: linkedin.com/in/yourprofile</p>
+<div class="card">
+<h2>📞 Contact</h2>
+<p>Email: yourname@email.com</p>
+<p>GitHub: <a href="https://github.com/karankole">github.com/karankole</a></p>
+<p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+</div>
+
+<div class="footer">
+  © 2026 Karan Kole | Portfolio
+</div>
+
 </div>
 
 </body>
