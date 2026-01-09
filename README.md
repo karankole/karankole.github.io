@@ -85,4 +85,4 @@ I enjoy building real-world projects using Python, web technologies, and REST AP
 
 ---
 
-⭐ If you like my work, feel free to **star this repository**!
+
